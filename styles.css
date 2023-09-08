@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-.profile {
+main {
     text-align: center;
     margin: 3rem auto;
     padding: 3rem 1.5rem;
@@ -18,21 +18,10 @@ body {
     width: 60%;
 }
 
-.profile img {
+main img {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-}
-
-.day-time {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.day-time p:nth-child(2) {
-    font-weight: bold;
 }
 
 a {
@@ -40,14 +29,8 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    .profile {
+    main {
         width: 80%;
         margin: 2rem auto;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .day-time {
-        display: block;
     }
 }
