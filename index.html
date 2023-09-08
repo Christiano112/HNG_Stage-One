@@ -4,11 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
-        <title>Document</title>
+        <title>Frontend Page Creation with Specific Elements</title>
     </head>
     <body>
         <main class="profile">
-            <p data-testid="slackUserName">Christian Enyia</p>
+            <h1 data-testid="slackUserName">Christian Enyia</h1>
 
             <img
                 src="/slack-dp.jpeg"
@@ -16,18 +16,27 @@
                 data-testid="slackDisplayImage"
             />
 
-            <p data-testid="currentDayOfTheWeek">Tuesday</p>
+            <div class="day-time">
+                <p>Current Day of the Week:</p>
+                <p data-testid="currentDayOfTheWeek"></p>
+            </div>
 
-            <p data-testid="currentUTCTime">1631148553000</p>
+            <div class="day-time">
+                <p>Current UTC Time:</p>
+                <p data-testid="currentUTCTime"></p>
+            </div>
 
-            <p data-testid="myTrack">Frontend</p>
+            <div class="day-time">
+                <p>My Track:</p>
+                <p data-testid="myTrack">Frontend</p>
+            </div>
 
             <a
-                href="https://github.com/your-github-repo-url"
+                href="https://github.com/Christiano112/HNG_Stage-One"
                 data-testid="githubURL"
-                >GitHub Repository</a
+                >Stage One GitHub Repository</a
             >
         </main>
-        <script></script>
+        <script src="script.js"></script>
     </body>
 </html>
